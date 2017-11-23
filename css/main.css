@@ -1,3 +1,172 @@
-/*
- * Estilos de tu proyecto
- */
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	margin: 0 auto;
+}
+
+#logo {
+	width: 50px;
+}
+
+#logo img {
+	width: 100%;
+}
+
+header {
+	height: 100px;
+	padding: 30px 150px;
+	position: fixed;
+}
+
+header div {
+	display: inline-block;
+	line-height: 50px;
+}
+
+header #logo {
+	width: 50px;
+	float: left;
+	margin-right: 600px;
+}
+
+header div a {
+	padding: 0px 15px;
+	color: white;
+}
+
+#container {
+	background-image: url("../assets/images/hero.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 600px;
+	position: relative;
+}
+
+#turn_miles {
+	background-color: white;
+	height: 300px;
+	padding: 64px;
+	position: absolute;
+	right: 0%;
+	top: 100px;
+	width: 430px;
+}
+
+#turn_miles h1 {
+	color: #352384;
+	font-size: 2.7em;
+	font-weight: bold;
+	margin: 0px;
+}
+
+#turn_miles .sign-up {
+	color: #352384;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid gray;
+	padding-bottom: 5px;
+	width: 100%;
+}
+
+input .placeholder {
+	color: gray;
+}
+
+button {
+	margin-top: 10px;
+	background-color: #FF00BF;
+	padding: 15px;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	font-weight: bold;
+}
+
+form {
+	margin-bottom: 30px;
+}
+
+form a {
+	color: gray;
+	margin-left: 15px;
+}
+
+#turn_miles p, p > a {
+	font-size: x-small;
+}
+
+#turn_miles p > a {
+	color: #FF00BF;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+
+#important_info {
+	background: linear-gradient(#76278F, #2B1E66);
+	height: 600px;
+	position: relative;
+}
+
+#ride h3 {
+	margin: 0px;
+	font-size: xx-large;
+	font-weight: bolder;
+}
+
+#ride {
+	color: white;
+	left: 200px;
+	position: absolute;
+	top: 50px;
+}
+
+#cellphone {
+	position: absolute;
+	right: 200px;
+	top: 30px;
+	width: 470px;
+}
+
+#cellphone img {
+	width: 100%;
+}
+
+#a_new_way_to_glow {
+	position: relative;
+	height: 315px;
+	border: 1px solid black;
+}
+
+#first_video {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
