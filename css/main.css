@@ -138,17 +138,45 @@ form a {
 	width: 100%;
 }
 
-#a_new_way_to_glow {
+#a_new_way_to_glow, #june, #showing_up_quick {
 	position: relative;
-	height: 315px;
-	border: 1px solid black;
+	height: 400px;
+	/*border: 1px solid black; <- Border to identify postion of the video*/ 
 }
 
-#first_video {
+#first_video, #third_video {
+	height: 400px;
+	width: 900px;
 	position: absolute;
 	right: 0px;
 	top: 0px;
 }
+
+
+.watch {
+	text-align: left;
+	width: 23%;
+	padding: 5%;
+}
+
+.float-right {
+	position: absolute;
+	right: 0px;
+}
+
+#second_video {
+	height: 400px;
+	width: 900px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.weight {
+	font-weight: bold;
+}
+
+
 
 
 
